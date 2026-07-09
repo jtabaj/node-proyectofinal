@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 // Ruta de prueba
 app.get('/', (req, res) => {
     res.json({
-        mensaje: 'API funcionando correctamente'
+        mensaje: 'API funcionando correctamente!!!'
     });
 });
 
