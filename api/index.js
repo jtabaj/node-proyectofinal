@@ -1,3 +1,3 @@
-import app from "./src/productos/app.js";
+import app from "../src/productos/app.js";
 
 export default app;
