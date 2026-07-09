@@ -1,4 +1,4 @@
-
+// import para correr localmente
 import app from './src/productos/app.js';
 
 const PORT = process.env.PORT || 3000;
