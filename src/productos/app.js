@@ -1,5 +1,5 @@
 import express from 'express';
-import productosRoutes from './src/productos/productos.routes.js';
+import productosRoutes from './productos.routes.js';
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 // Ruta de prueba
 app.get('/', (req, res) => {
     res.json({
-        mensaje: 'API funcionando'
+        mensaje: 'API funcionando correctamente'
     });
 });
 
